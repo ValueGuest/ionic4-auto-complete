@@ -1,4 +1,10 @@
 {
-  "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "whitelistedNonPeerDependencies": ["*"],
+  "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "lib": {
+    "cssUrl": "inline",
+    "entryFile": "src/main.ts",
+    "styleIncludePaths": [
+      "./src/scss"
+    ]
+  }
 }
